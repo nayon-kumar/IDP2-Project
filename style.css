@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.logoArea img{
+    height: 80px;
+    float: left;
+    margin-right: 80px;
+}
+.options{
+    margin-top: 23px;
+}
+.options a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.options a:hover{
+    background-color: #AD3333;
+    transition-duration: 0.3s;
+}
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #333333;
+  color: #fff;
+}
+
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq,
+.contact {
+  background: #fff;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer{
+  background: black;
+  color: #fff;
+  text-align: center;
+  height: 75px;
+}
+footer p{
+    float: left;
+}
+footer a{
+    color: white;
+    padding: 10px;
+}
+footer a:hover{
+    color: aqua;
+    transition-duration: 0.3s;
+}
+.foot{
+    padding: 25px;
+}
+
+.faq h3,
+.contact h3 {
+  margin-bottom: 8px;
+}
