@@ -285,7 +285,75 @@ section {
 .qCard3 ul{
   margin-left: 20px;
 }
-
+.cHeader h1{
+  color: #990018;
+  margin-bottom: 20px;
+}
+.contactArea{
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  padding-bottom: 35px;
+}
+.contactArea:hover{
+  transition-duration: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cantactLeft input{
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+}
+.cantactLeft input[type="submit"]{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 2px solid green;
+}
+.cantactLeft input[type="submit"]:hover{
+  background-color: green;
+  color: white;
+  transition-duration: 0.3s;
+}
+.cantactLeft textarea{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+}
+.cantactLeft label{
+  font-weight: bold;
+  display: block;
+}
+.cHeader{
+  grid-area: cHead;
+}
+.cantactLeft{
+  grid-area: cLeft;
+  width: 100%;
+}
+.contachRight{
+  grid-area: cRight;
+  width: 100%;
+}
+.contactArea{
+  display: grid;
+  grid-template-areas: 
+  'cHead cHead'
+  'cLeft cRight'
+  ;
+}
+.contachRight h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.loc{
+  padding-top: 20px;
+}
+.contachRight p{
+  padding: 3px;
+}
 footer {
   background: black;
   color: #fff;
